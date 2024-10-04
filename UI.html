@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image-to-Animation AI Interface</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Image-to-Animation AI</h1>
+
+        <!-- Upload buttons -->
+        <div class="upload-section">
+            <label for="upload1" class="upload-btn">Upload Image 1</label>
+            <input type="file" id="upload1" accept="image/*" style="display: none;">
+        </div>
+
+        <div class="upload-section">
+            <label for="upload2" class="upload-btn">Upload Image 2</label>
+            <input type="file" id="upload2" accept="image/*" style="display: none;">
+        </div>
+
+        <!-- Text prompt input -->
+        <div class="prompt-section">
+            <label for="prompt">Enter Animation Prompt:</label>
+            <input type="text" id="prompt" placeholder="Describe the animation..." />
+        </div>
+
+        <!-- Submit button -->
+        <div class="submit-section">
+            <button id="submitBtn">Generate Animation</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
